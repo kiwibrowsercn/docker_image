@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -q -y tzdata git lsb-core sudo python open
 
 RUN update-java-alternatives --set java-1.8.0-openjdk-amd64
 
-RUN git clone --depth 1 https://github.com/kiwibrowser/src
+RUN git clone --depth 1 https://github.com/kiwibrowser/src.next
 
 RUN git clone --depth 1 https://github.com/kiwibrowser/dependencies .cipd
 
